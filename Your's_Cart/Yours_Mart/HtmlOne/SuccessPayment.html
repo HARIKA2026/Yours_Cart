@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Payment</title>
+    <!--Link to Css-->
+    
+    <link rel="stylesheet" href="../CSSSecond/SecondPage.css">
+</head>
+<body>
+    <div class="sc-container">
+        <h1>Payment Successful</h1>
+        <p>Your order will arrive in 2 days</p>
+        <img src="../images/PaymentsuccessfulOne.jpeg" alt="oops!!!">
+        
+        <button type="button" class="sc-btn" id="back-to-page">Back to Page</button>
+    </div>
+    <script>
+        document.getElementById('back-to-page').addEventListener('click', function() {
+        window.history.back(); // Go back to the previous page in history
+        });
+    </script>
+</body>
+</html>
